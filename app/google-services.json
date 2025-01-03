@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "710212993205",
+    "project_id": "mytestkotlin-26e32",
+    "storage_bucket": "mytestkotlin-26e32.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710212993205:android:86a781c95837c50b363efc",
+        "android_client_info": {
+          "package_name": "com.aklabs.mytestkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710212993205-57ijfffk80h9k12uj20dhavcbr21iif1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aklabs.mytestkotlin",
+            "certificate_hash": "0cfe6d705bacd01a248f597746bfda4695eca134"
+          }
+        },
+        {
+          "client_id": "710212993205-230it74t1r3magd6coeq5o1bocch7sbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI4sfBe6z3HYu8kSo6Bnn9So7eHqBxlU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710212993205-230it74t1r3magd6coeq5o1bocch7sbd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
              .addOnCompleteListener(this) { task ->
                  if (task.isSuccessful) {
                    Toast.makeText(this,"Successful Logged IN",Toast.LENGTH_LONG).show()
-
+                     startActivity(Intent(this,AddNewNotes::class.java))
                  } else {
 
                      Toast.makeText(this,"Failed to login",Toast.LENGTH_LONG).show()
@@ -90,7 +90,7 @@ result->
             auth.signInWithCredential(credentials).addOnCompleteListener {
                 if(it.isSuccessful)
                 {
-                    startActivity(Intent(this,SignoutActivity::class.java))
+                    startActivity(Intent(this,AddNewNotes::class.java))
                     Toast.makeText(this,"SuccessFul to Login",Toast.LENGTH_LONG).show()
                 }
                 else{
